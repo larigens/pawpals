@@ -14,9 +14,9 @@ const passportConfig = (passport, user) => {
     passport.deserializeUser((id, done) => {
         User.findByPk(id).then((user) => {
             if (user) {
-                done(null, user.get());
+                 done(null, user.get());
             } else {
-                done(null, user.err);
+                 done(null, false);
             }
         });
     });
