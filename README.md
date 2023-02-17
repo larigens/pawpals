@@ -1,7 +1,7 @@
 <h1 align="center"> Paw Pals </h1>
 
 <p align="center">
-    <img src="./public/images/logo.jpeg" alt="logo" width="230px" height="180px" />
+    <img src="./public/images/logo.gif" alt="logo" width="230px" height="180px" />
   <br><br>
   <i> Adopt A Pet Near You!
     <br> built using Express, Sequelize and Handlebars! </i>
