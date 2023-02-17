@@ -2,12 +2,13 @@
   "name": "pawpals",
   "version": "1.0.0",
   "description": "help find loving homes for animals in need",
+  "engines": {
+    "node": "18.14.1"
+  },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon node server.js",
-    "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "repository": {

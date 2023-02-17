@@ -1,1 +1,1 @@
-web: npm i && npm run seed && npm start
+web: npm i && node seeds/index.js && node server.js
