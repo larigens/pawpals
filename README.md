@@ -37,7 +37,6 @@ Adopting a pet is a big decision, and we're here to support you every step of th
 ## Table of Contents
 
 - [Description](#description)
-- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
   - [Cloning the Repository](#cloning-the-repository)
   - [Prerequisites](#prerequisites)
