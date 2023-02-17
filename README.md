@@ -153,11 +153,11 @@ Once you run this, npm will begin the installation process of all of the current
 
 The following images shows the web application's appearance:
 
-<img src="../pawpals/public/images/demo1.png" alt="App Screenshot" width="600px" height="265px" />
+<img src="./public/images/demo1.png" alt="App Screenshot" width="600px" height="265px" />
 
-<img src="../pawpals/public/images/demo2.png" alt="App Screenshot" width="600px" height="265px" />
+<img src="./public/images/demo2.png" alt="App Screenshot" width="600px" height="265px" />
 
-<img src="../pawpals/public/images/demo3.png" alt="App Screenshot" width="600px" height="265px" />
+<img src="./public/images/demo3.png" alt="App Screenshot" width="600px" height="265px" />
 
 ## Usage
 
@@ -185,11 +185,11 @@ npm run seed
 
 The following animation shows the application's **GET** routes to return all dogs, all cats, and all rabbits being tested in Postman:
 
-![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Dogs.”.](../pawpals/public/images/dogs-test.png)
+![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Dogs.”.](./public/images/dogs-test.png)
 
-![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Cats.”.](../pawpals/public/images/cats-test.png)
+![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Cats.”.](./public/images/cats-test.png)
 
-![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Rabbits.”.](../pawpals/public/images/rabbits-test.png)
+![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Rabbits.”.](./public/images/rabbits-test.png)
 
 ## Questions
 
