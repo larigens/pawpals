@@ -13,7 +13,7 @@ const { passportConfig } = require('./config/passport');
 const routes = require('./controllers');
 const { User } = require('./models');
 
-const PORT = process.env.PORT || 5500;
+const PORT = process.env.PORT || 3001;
 const app = express();
 const hbs = exphbs.create({
   layoutsDir: __dirname + '/views/layouts',

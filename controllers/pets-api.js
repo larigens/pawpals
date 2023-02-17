@@ -70,46 +70,46 @@ router.get("/rabbits", async (req, res) => {
 });
 
 
-router.delete("/cats/:id", async (req, res) => {
-    try {
-        const catsData = await Pets.destroy({
-            where: {
-                id: req.params.id,
-                species_id: 2
-            },
-        });
-        res.status(200).json(catsData);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-});
+// router.delete("/cats/:id", async (req, res) => {
+//     try {
+//         const catsData = await Pets.destroy({
+//             where: {
+//                 id: req.params.id,
+//                 species_id: 2
+//             },
+//         });
+//         res.status(200).json(catsData);
+//     } catch (err) {
+//         res.status(500).json(err);
+//     }
+// });
 
-router.delete("/dogs/:id", async (req, res) => {
-    try {
-        const dogsData = await Pets.destroy({
-            where: {
-                id: req.params.id,
-                species_id: 1
-            },
-        });
-        res.status(200).json(dogsData);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-});
+// router.delete("/dogs/:id", async (req, res) => {
+//     try {
+//         const dogsData = await Pets.destroy({
+//             where: {
+//                 id: req.params.id,
+//                 species_id: 1
+//             },
+//         });
+//         res.status(200).json(dogsData);
+//     } catch (err) {
+//         res.status(500).json(err);
+//     }
+// });
 
-router.delete("/rabbits/:id", async (req, res) => {
-    try {
-        const rabbitsData = await Pets.destroy({
-            where: {
-                id: req.params.id,
-                species_id: 3
-            },
-        });
-        res.status(200).json(rabbitsData);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-});
+// router.delete("/rabbits/:id", async (req, res) => {
+//     try {
+//         const rabbitsData = await Pets.destroy({
+//             where: {
+//                 id: req.params.id,
+//                 species_id: 3
+//             },
+//         });
+//         res.status(200).json(rabbitsData);
+//     } catch (err) {
+//         res.status(500).json(err);
+//     }
+// });
 
 module.exports = router
