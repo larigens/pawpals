@@ -11,12 +11,18 @@ const passportConfig = (passport, user) => {
     });
 
     // Finding the user by ID when deserializing.
+    // passport.deserializeUser(function(id, done) {
+    //     User.findById(id, function (err, user) {
+    //       done(err, user);
+    //     });
+    //   });
+
     passport.deserializeUser((id, done) => {
         User.findByPk(id).then((user) => {
             if (user) {
-                done(null, user.get());
+                 done(null, user.get());
             } else {
-                done(null, user.err);
+                 done(null, false);
             }
         });
     });

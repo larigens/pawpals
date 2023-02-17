@@ -37,6 +37,7 @@ Adopting a pet is a big decision, and we're here to support you every step of th
 ## Table of Contents
 
 - [Description](#description)
+- [Table of Contents](#table-of-contents)
 - [Installation](#installation)
   - [Cloning the Repository](#cloning-the-repository)
   - [Prerequisites](#prerequisites)
@@ -153,7 +154,11 @@ Once you run this, npm will begin the installation process of all of the current
 
 The following images shows the web application's appearance:
 
-<img src="/images/demo1.png" alt="App Screenshot" width="700px" height="342px" />
+<img src="../pawpals/public/images/demo1.png" alt="App Screenshot" width="600px" height="265px" />
+
+<img src="../pawpals/public/images/demo2.png" alt="App Screenshot" width="600px" height="265px" />
+
+<img src="../pawpals/public/images/demo3.png" alt="App Screenshot" width="600px" height="265px" />
 
 ## Usage
 
@@ -179,17 +184,13 @@ Open your terminal, make sure you are in the directory of this application and t
 npm run seed
 ```
 
-The following animation shows the application's **GET** routes to return all dogs, all cats, and all rabbits being tested in Insomnia:
+The following animation shows the application's **GET** routes to return all dogs, all cats, and all rabbits being tested in Postman:
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Dogs.”.](./assets/demo1.gif)
+![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Dogs.”.](../pawpals/public/images/dogs-test.png)
 
-The following animation shows the application's **GET** routes to return a single dog, a single cat, and a single rabbit being tested in Insomnia:
+![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Cats.”.](../pawpals/public/images/cats-test.png)
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Dog.”](./assets/demo2.gif)
-
-The following animation shows the application's **POST, PUT, and DELETE** routes for dogs, cats and rabbits being tested in Insomnia:
-
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Dog.”](./assets/demo3.gif)
+![In Postman, the user tests “GET tags,” “GET Categories,” and “GET All Rabbits.”.](../pawpals/public/images/rabbits-test.png)
 
 ## Questions
 
