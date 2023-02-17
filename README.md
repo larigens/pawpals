@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://pawpals.herokuapp.com/"><strong> PawPals Official Site </strong></a>
+  <a href="https://paw-pals.herokuapp.com/"><strong> PawPals Official Site </strong></a>
   <br>
 </p>
 
@@ -136,6 +136,12 @@ For `dotenv`
 npm i dotenv
 ```
 
+For `Passport`
+
+```bash
+npm i passport
+```
+
 You can also open the project in VS Code, make sure you are in the directory of this application and then type the command below on your terminal:
 
 ```bash
@@ -244,6 +250,7 @@ Our Code of Conduct follows the same principles as the [Contributor Covenant](ht
 - [Handlebars](https://handlebarsjs.com/guide/builtin-helpers.html#with)
 - [Postman API](https://www.postman.com/)
 - [Insomnia](https://insomnia.rest/)
+- [Passport](https://www.npmjs.com/package/passport)
 
 ## License
 
