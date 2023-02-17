@@ -16,7 +16,7 @@ const passportConfig = (passport, user) => {
             if (user) {
                 done(null, user.get());
             } else {
-                done(user.err, null);
+                done(null, user.err);
             }
         });
     });
